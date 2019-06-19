@@ -68,4 +68,7 @@ static int default_RNG(uint8_t *dest, unsigned size) {
 
 #endif /* platform */
 
+int default_RNG(uint8_t *dest, unsigned size);
+#define default_RNG_defined 1
+
 #endif /* _UECC_PLATFORM_SPECIFIC_H_ */
